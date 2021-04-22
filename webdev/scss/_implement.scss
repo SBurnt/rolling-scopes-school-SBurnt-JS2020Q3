@@ -1,0 +1,36 @@
+.implement {
+  background: $color-bg-white;
+  background: $color-bg-gray;
+
+  .section__inner {
+    display: flex;
+    padding-right: 269px;
+    padding-bottom: 137px;
+    padding-left: 269px;
+  }
+
+  &__left {
+    margin-right: 139px;
+  }
+
+  &__right {
+    padding-top: 199px;
+  }
+  .section__title {
+    max-width: 385px;
+    margin-bottom: 20px;
+
+    letter-spacing: 0.4px;
+  }
+
+  .section__subtitle {
+    max-width: 410px;
+    margin-bottom: 30px;
+
+    letter-spacing: -0.2px;
+  }
+
+  &__btn {
+    letter-spacing: -0.4px;
+  }
+}

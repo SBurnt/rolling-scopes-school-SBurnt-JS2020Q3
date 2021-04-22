@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>momentum</title>
+  <meta name="SBurnt" content="momentum">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="main">
+    <section class="weather">
+      <div class="container">
+        <div class="section__inner">
+          <div class="weather__wrap">
+            <div class="weather__city" contenteditable="true"></div>
+            <div class="weather__temp-wrap">
+              <img class="weather__ico-temp" src="" title="" alt="иконка погоды">
+              <div class="weather__temp"></div>
+            </div>
+            <div class="weather__wind"></div>
+            <div class="weather__humidity"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="greeting">
+      <div class="container">
+        <div class="section__inner">
+          <time class="greeting__time"></time>
+          <h1 class="section__title">
+            <span class="greeting__times-day"></span>
+            <span class="greeting__name" contenteditable="true" tabindex="0"></span>
+          </h1>
+          <div class="section__subtitle">
+            <span>Какие цели на сегодня?</span>
+            <span class="greeting__goals" contenteditable="true" tabindex="1"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quote">
+      <div class="container">
+        <div class="section__inner">
+          <button class="quote__btn-next">следующая цитата</button>
+          <blockquote class="quote__blockquote">
+            <p class="quote__text">I think early on I knew what I was going to do and it was based a lot on familiarity
+              but it was also because I didn't have a lot of skills. There was nothing I wanted t be. I didn't want to
+              be a doctor. I wanted to be in show business.</p>
+            <footer>— <cite class="quote__autor">Christopher Walken</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

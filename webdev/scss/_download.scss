@@ -1,0 +1,64 @@
+.download {
+  background: $color-bg-gray;
+
+  .section__inner {
+    padding-bottom: 180px;
+
+    text-align: center;
+  }
+
+  .section__title {
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .section__subtitle {
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  &__btn-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__btn-link:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__btn-link {
+    position: relative;
+
+    padding-right: 77px;
+    padding-left: 18px;
+
+    &:hover svg {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__btn-link.android {
+    padding-right: 75px;
+    padding-left: 16px;
+  }
+
+  &__btn-img-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 46px;
+
+    background: $color-bg-btn-hover;
+  }
+
+  &__btn-img {
+    transition: all 0.5s ease-in-out;
+  }
+}

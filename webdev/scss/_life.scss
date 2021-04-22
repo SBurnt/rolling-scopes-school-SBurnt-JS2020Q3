@@ -1,0 +1,77 @@
+.life {
+  background: url(./assets/img/bg-life.jpg) no-repeat;
+
+  .section__inner {
+    padding: 230px 0 90px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 69px;
+    // display: flex;
+    // align-items: center;
+    text-align: center;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    margin-bottom: 26px;
+  }
+
+  &__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.3px;
+
+    text-align: center;
+
+    color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 500px;
+  }
+
+  &__btn {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 183px;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__socials-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__socials-item:hover {
+    .mail path {
+      fill: #005bd1;
+    }
+
+    .fb path {
+      fill: #3578E5;
+    }
+
+    .fb circle {
+      stroke: #3578E5;
+    }
+
+    .insta path {
+      fill: #e6e946;
+    }
+
+    .youtube path {
+      fill: #f00;
+    }
+
+    .youtube circle {
+      stroke: #f00;
+    }
+  }
+}

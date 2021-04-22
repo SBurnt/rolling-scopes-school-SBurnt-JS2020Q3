@@ -1,0 +1,38 @@
+.weather {
+  color: $color-white;
+
+  &__city {
+    display: inline-block;
+    min-width: 60px;
+
+    font-size: 1.5em;
+
+    outline: none;
+  }
+
+  &__temp-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  &__ico-temp {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__temp {
+    padding-left: 10px;
+
+    font-size: 1.3em;
+  }
+
+  &__wind {
+    font-size: 1.2em;
+  }
+
+  &__humidity {
+    margin-top: 5px;
+
+    font-size: 1.2em;
+  }
+}

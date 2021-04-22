@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+
+  outline: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+
+body {
+  // overflow-x: hidden;
+  font-family: "Ubuntu", "Times New Roman", Arial, sans-serif;
+  color: $color-primary;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.section {
+  &__inner {
+    padding: 120px 0 140px;
+  }
+
+  &__title {
+    margin-bottom: 21px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+  }
+
+  &__subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-second;
+    letter-spacing: -0.1px;
+
+    b {
+      font-weight: bolder;
+    }
+  }
+}
+
+.btn {
+  padding: 15px 47px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $color-btn;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+
+  background-color: $color-bg-btn;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: $color-bg-btn-hover;
+  }
+
+  &:focus {
+    background-color: $color-bg-btn-hover;
+  }
+}

@@ -1,0 +1,61 @@
+.sign {
+  background: url(./assets/img/bg-sign.jpg) no-repeat;
+
+  .section__inner {
+    padding: 200px 0 220px;
+
+    text-align: center;
+  }
+
+  .section__title {
+    margin-bottom: 30px;
+
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__form-input {
+    width: 340px;
+    height: 46px;
+    padding: 13px 24px;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    background: #ffffff;
+    border: none;
+    outline: none;
+
+    &::-webkit-input-placeholder {
+      color: rgba(55, 55, 55, 0.5);
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: rgba(55, 55, 55, 0.5);
+    }
+    &:-ms-input-placeholder {
+      color: rgba(55, 55, 55, 0.5);
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: rgba(55, 55, 55, 0.5);
+    }
+  }
+
+  &__btn {
+    padding: 14px 25px;
+
+    &:hover svg {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__btn-img {
+    transition: all 0.5s ease-in-out;
+  }
+}

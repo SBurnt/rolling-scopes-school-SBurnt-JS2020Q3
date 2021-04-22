@@ -1,0 +1,58 @@
+.quote {
+  &__blockquote {
+    position: relative;
+
+    margin: 0;
+    padding: 20px;
+
+    text-align: center;
+    color: $color-white;
+    &:before,
+    &:after {
+      position: absolute;
+      right: 20px;
+      left: 20px;
+
+      height: 2px;
+
+      font-size: 3em;
+      line-height: 0.5;
+      color: #3ca1d9;
+
+      background: linear-gradient(to right, #3ca1d9 45%, transparent 45%, transparent),
+        linear-gradient(to right, transparent, transparent 55%, #3ca1d9 55%);
+    }
+
+    &:before {
+      content: '\201C';
+      top: 10px;
+    }
+    &:after {
+      content: '\201D';
+      bottom: 10px;
+    }
+  }
+
+  &__text {
+    padding: 5px 0;
+
+    font-size: 1.2em;
+  }
+  &__autor {
+    font-size: 1.2em;
+  }
+
+  &__btn-next {
+    display: block;
+    margin-left: auto;
+    padding: 5px;
+
+    font-size: 1.6em;
+    color: $color-white;
+
+    background: none;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+}

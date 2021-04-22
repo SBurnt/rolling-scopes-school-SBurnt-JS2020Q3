@@ -1,0 +1,24 @@
+.rappresent {
+  background: $color-bg-white;
+
+  .section__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 117px;
+    padding-right: 269px;
+    padding-bottom: 137px;
+    padding-left: 269px;
+  }
+
+  &__left {
+    padding-top: 175px;
+  }
+  .section__title {
+    max-width: 385px;
+  }
+
+  .section__subtitle {
+    max-width: 435px;
+    margin-bottom: 30px;
+  }
+}
